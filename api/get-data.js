@@ -34,7 +34,7 @@ export default async function handler(req, res) {
         // Ambil data dari tabel personils
         const data = await sql`
             SELECT *
-            FROM akh_db
+            FROM akh
             ORDER BY id ASC
             LIMIT 100
         `;
