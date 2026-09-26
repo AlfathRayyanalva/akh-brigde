@@ -36,7 +36,7 @@ export default async function handler(req, res) {
             SELECT *
             FROM akh
             ORDER BY id ASC
-            LIMIT 100
+            LIMIT 500
         `;
 
         return res.status(200).json({
